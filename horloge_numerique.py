@@ -1,10 +1,8 @@
 import pytz
 from datetime import date, datetime
 import time
-my_tz = {}
 
 
-print("bonjour", end="")
 while True:
     abidjan_tz = pytz.timezone("Africa/Abidjan")
     paris_tz = pytz.timezone("Europe/Paris")
